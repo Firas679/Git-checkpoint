@@ -1,0 +1,86 @@
+
+a{
+    margin: 10px 120px;
+    text-align: center;
+}
+/* Visited link */
+a:visited {
+    color: rgb(25, 149, 160);
+}
+/* Unvisited link */
+a:active {
+    color: tomato;
+}
+/* Mouse over elementt */
+a:hover {
+    color: rgb(195, 0, 255);
+}
+/* Selected link */
+a::selection {
+    color: rgba(4, 183, 55, 0.825);
+}
+
+h1{
+    font-family: roboto;
+    text-align: center;
+    color: rgb(0, 137, 201);
+    font-weight: bold;
+    font-size: 85px;
+    text-decoration: underline;
+    margin: 80px 20px; 
+}
+
+img{
+    height: 550px;
+    width: 460px;
+    margin-left: 540px;
+    margin-right: 100px;
+}
+
+h2 {
+    font-family: roboto;
+    text-align: center;
+    color: rgb(231, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: black;
+    border : 2px solid rgb(201, 0, 0);
+    padding: 10px 10px;
+    margin: 5px 20px 20px;
+}
+
+#About > p, #Work p {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(186, 230, 234);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    margin: 20px 20px 75px;
+    border: 2px solid rgb(114, 151, 154);
+}
+
+#Contact > p {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(186, 230, 234);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    margin: 20px 20px 75px;
+    border: 2px solid rgb(114, 151, 154);
+    
+}
+
+#Contact{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(209, 0, 0);
+    font-style: italic;
+    line-height: 35px;
+
+}
+
